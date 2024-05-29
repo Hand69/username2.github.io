@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="glavnaya">
+        <div class="verh">
+            <div class="Logo"><a href=""><img src="" alt=""></a></div>
+            <div class="akkaynt"><p>Имя майк</p> <div class="aikon"></div></div>
+        </div>
+        <div class="baib">
+            <div class="boib1"><p class="p1">Прибыль за тап</p> <p class="p2">0</p></div>
+            <div class="boib2"><p class="p1">До нового уровня</p> <p class="p2">0</p></div>
+            <div class="boib3"><p class="p1">Прибыль в час</p> <p class="p2">0</p></div>
+        </div>
+        <div class="balanse"><h1 id="coinsCounter">0</h1></div>
+        <div class="up">
+            <div class="lvl"><p>1 ур</p></div>
+            <button class="upknop" id="open-popup-btn">up</button>     <!-- variabl -->
+            <div id="popup" class="popup-closed">
+                <div class="popup-content">
+                  <div class="item">
+                    <h3>Предмет 1</h3>
+                    <p>Цена: 100 монет</p>
+                  </div>
+                  <div class="item">
+                    <h3>Предмет 2</h3>
+                    <p>Цена: 200 монет</p>
+                  </div>
+                  <div class="item">
+                    <h3>Предмет 3</h3>
+                    <p>Цена: 300 монет</p>
+                  </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="center" id="game" >
+            <div class="polosa"></div>
+            <button class="click" id="coin" onclick="addCoin(event)">Click me</button>
+        </div>
+        <div class="menu">
+            <div class="menu1"><p>Market</p></div>
+            <div class="menu2"><p>Menu</p></div>
+            <div class="menu3"><p>Setting</p></div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>
